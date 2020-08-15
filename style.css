@@ -1,0 +1,46 @@
+html {
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    align-items: center;
+}
+
+#title {
+    padding-top: 10%;
+}
+
+.content {
+    margin-top: 6.5%;
+    font-weight: bold;
+    font-size: large;
+
+    /* display: block; */
+}
+
+input {
+    width: 3.5%;
+}
+
+#base {
+    margin-left: 31.5px;
+}
+
+#submit-btn {
+    margin-top: 15px;
+}
+
+#result {
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: medium;
+}
