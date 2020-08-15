@@ -58,4 +58,7 @@ $( "#submit-btn" ).click( function ( event ) {
 
 
     $( "#result" ).html( result_p );
+
+    $("#number").val('');
+    $("#base").val('');
 });
